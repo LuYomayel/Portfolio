@@ -32,7 +32,7 @@ span{
 
 /* Navegacion */ 
 .navegacion-bg{
-    background-color: var(--secundario);
+    background-color: rgb(252, 111, 170);
 }
 
 .navegacion-principal{
@@ -68,7 +68,7 @@ span{
 /* Imagen de fondo */
 
 .bg-img{
-    background-image: url(portada.jpg);
+    background-image: url(portada1.jfif);
     position: relative;
     background-repeat: no-repeat;
     background-size: 100%,100%;
@@ -91,8 +91,8 @@ span{
 /* Foto de perfil */ 
 .foto-perfil{
     position: 50%, 50%;
-    width: 20rem;
-    height: 20rem;
+    width: 35rem;
+    height: 35rem;
     border-radius: 50%;
     border-color: blue;
     
