@@ -14,7 +14,7 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-snap-type: y proximity;
+    /*scroll-snap-type: y proximity;*/
 }
 body{
     background-image: linear-gradient(to top, #DFE9F3 0%,var(--blanco, ) 100%);
@@ -50,10 +50,11 @@ span, p{
 }
 
 /* Configuracion principal*/
+/*
 .tabla,.navegacion-principal, .Trabajos{
     scroll-snap-align: center;
     scroll-snap-stop: always;
-}
+}*/
 .contenedor{
     max-width: 100rem;
     margin: 0 auto 0 auto;
