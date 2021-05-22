@@ -7,30 +7,87 @@
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <title>Luciano Yomayel</title>
 </head>
 <body>
     <div class="navegacion-bg">
         <nav class="navegacion-principal contenedor">
-            <a href="#">Inicio</a>
-            <a href="#">Sobre mi</a>
+            <a href="#Inicio">Inicio</a>
+            <a href="#SobreMi">Sobre mi</a>
             
-            <a href="#">Contacto</a>            
+            <a href="#Proyectos">Proyectos</a>            
         </nav>
     </div>
 
     
 
-    <section class="bg-img">
+    <section class="bg-img" id="Inicio">
         <div class="contenido-bg-img">
             <img class="foto-perfil" src="FP.jpg" alt="foto personal">
-            <h1 class="nombre">Luciano Federico Yomayel <span>Programador</span> </h1>
+            <h1 class="nombre">Luciano Federico Yomayel <span class="blanco">Programador</span> </h1>
             
         </div>
     </section>
-    <main>
-
+    <main class="contenedor sombra">
+        
+        <div class="tabla" id="SobreMi">
+            <section class="columna">
+                <h2>Acerca de mi</h2>
+                <p>Hola! Soy Luciano Yomayel y soy un fanático de la tecnología desde que tengo memoria. </p>
+                <p>Actualmente estoy cursando la Tecnicatura en Programación en la UTN de Pacheco, Buenos Aires.</p>
+                <p>En cuanto a mis habilidades me considero alguien que se adapta muy rápido a los cambios. Me encanta aprender cosas nuevas y poder entenderlas al 100% para poder aplicar esos conocimientos de la mejor forma posible.</p>
+                <p>Como programador estoy buscando desarrollar mi potencial en sistemas distribuidos, construyendo microservicios con tecnologías modernas, aplicando metodologías ágiles y trabajando en equipo en proyectos con gran impacto</p>
+            </section>
+        
+            <section class="columna">
+                <h2>Información básica</h2>
+                <p class="negrita">Edad:<span>20</span></p>
+                <p class="negrita">Email:<span>l.yomayel@gmail.com</span></p>
+                <p class="negrita">LinkedIn: <a href="https://www.linkedin.com/in/luciano-yomayel-8aa917186/">Luciano Yomayel</a></p>
+                <p class="negrita">Idiomas:<span>Ingles: intermedio</span></p>
+                <div class="lista">
+                <p class="negrita titulo">Lenguajes de programacion:</p>
+                
+                    <span class="fila1">C++: avanzado</span>
+                    <span class="fila2">SQL: intermedio</span>
+                    <span class="fila3">C#: intermedio</span>
+                
+                    
+                </div> 
+                
+            </section>
+        </div>
+        
     </main>
+    <div class="contenedor1" id="Proyectos">
+        <h2 class="centrado">Trabajos realizados</h2>
+        <div class="Trabajos">
+            <section class="trabajo">
+                <h3 class="centrado">Juego RPG: CyberCode</h3>
+                <p>Realizado en C++ y con la librería gráfica Allegro 5. Todavía se encuentra en fase beta.</p>
+                
+                <img class="imagen" src="JuegoFront.jpeg" alt="MenuJuego">
+                <img class="imagen" src="InGame.jpeg" alt="InGame">
+                <a class="Repo" href="https://github.com/LuYomayel/CyberPunk">Repositorio</a>
+            </section>
+            <section class="trabajo">
+                <h3 class="centrado">Programa de gestion</h3>
+                <p>Realizado en C++.</p>
+                
+                <img class="imagen" src="Archivos.jpeg" alt="MenuArchivos">
+                <a class="Repo" href="https://github.com/LuYomayel/archivos">Repositorio</a>
+            </section>
+            <section class="trabajo">
+                <h3 class="centrado">Aplicación de escritorio</h3>
+                <p>Realizado en C# y con una base de datos en T-SQL.</p>
+                
+                <img class="imagen" src="Aplicacion.jpeg" alt="MenuAplicacion">
+                <a class="Repo" href="https://github.com/LuYomayel/tp-winform-Yomayel-Herrera">Repositorio</a>
+            </section>
+        </div>
+    </div>
 
 </body>
 </html>
