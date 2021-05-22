@@ -18,11 +18,15 @@ html{
 }
 body{
     background-image: linear-gradient(to top, #DFE9F3 0%,var(--blanco, ) 100%);
+    margin-bottom: 3rem;
 }
 *{
     font-family: var(--fuente-principal);
     color:var(--blanco);
+    padding: 0;
+    margin: 0;
 }
+
 h1{
     font-size: var(--tamaño-principal);
         
@@ -32,10 +36,12 @@ h2{
     color: var(--oscuro);
     font-family: var(--fuente-principal);
     text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 h3{
     font-size: var(--tamaño-terciario);
     color: var(--oscuro);
+    margin-bottom: 1rem;
 }
 span, p{
     font-size: var(--tamaño-texto);
@@ -54,7 +60,7 @@ span, p{
 }
 .contenedor1{
     max-width: 150rem;
-    margin: 0 auto 0 auto;
+    margin: 5rem auto 0 auto;
 }
 .negrita {
     font-weight: bold;
@@ -68,10 +74,14 @@ span, p{
 
 /* Navegacion */ 
 .navegacion-bg{
+    width: 100%;
     background-color: rgb(252, 111, 170);
+    position: fixed; 
+    z-index: 100; 
 }
 
 .navegacion-principal{
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -86,7 +96,7 @@ span, p{
     font-size: 2rem;
     font-weight: 700;
     padding: 1rem;
-    transition: all 0.2s linear;
+     
 }
 
 
@@ -147,7 +157,7 @@ span, p{
 }
 
 .columna p{
-    
+    margin-bottom: 1rem;
     color: var(--oscuro);
     
 }
